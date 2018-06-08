@@ -1,0 +1,51 @@
+body {
+   font-family: Roboto, sans-serif;
+}
+
+#main {
+   width: 75%;
+}
+
+#welcome-section {
+   height: 100vh;
+}
+
+#welcome-section div:first-child {
+   position: absolute;
+   top: 40vh;
+   left: 0;
+   width: 100%;
+   margin: auto;
+}
+
+@media (max-width: 768px) {
+   #main {
+      
+   }
+}
+
+.card {
+   margin-top: 30px;
+}
+
+h1 {
+   font-weight: 700;
+}
+
+header nav div {
+   display: flex;
+   width: 75%;
+}
+
+nav a {
+   color: white;
+}
+
+footer {
+   font-size: 0.85em;
+   margin-top: 20px;
+}
+
+form {
+/*    margin-top: 50px; */
+}
