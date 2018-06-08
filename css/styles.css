@@ -18,7 +18,7 @@ section {
    margin: auto;
 }
 
-#contact:first-child {
+#contact > div:first-of-type {
    position: absolute;
    top: 40vh;
    left: 0;
