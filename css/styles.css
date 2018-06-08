@@ -6,11 +6,19 @@ body {
    width: 75%;
 }
 
-#welcome-section {
+section {
    height: 100vh;
 }
 
 #welcome-section div:first-child {
+   position: absolute;
+   top: 40vh;
+   left: 0;
+   width: 100%;
+   margin: auto;
+}
+
+#contact:first-child {
    position: absolute;
    top: 40vh;
    left: 0;
